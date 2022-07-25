@@ -19,6 +19,6 @@ invoke:
 	curl http://localhost:8080/change/1/34
 
 run-kube:
-	kubectl apply -f kube-hello-change.yaml
+	kubectl apply -f kubernetes-hello-world-python-flask.yaml 
 
 all: install lint test
